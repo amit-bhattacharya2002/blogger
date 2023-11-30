@@ -30,7 +30,7 @@ const UserProfile = ({user, post}: Props) => {
     </div>
     <h3 className='md:text-2xl text-xl text-center md:text-start border-b-4  py-4 px-4 mt-4'>Posts made by {user.name}</h3>
 
-    <div className=' h-full wrap-3 flex flex-wrap justify-between basis-5 '>
+    <div className=' h-full wrap-3 container md:flex flex-wrap justify-between basis-5 '>
 
     {post?.map((p)=>(
       

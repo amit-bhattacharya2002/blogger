@@ -8,7 +8,7 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <div className='md:h-[30vh] h-full bg-slate-800 py-12 px-10 text-white flex md:flex-row flex-col items-start gap-6 justify-between w-full'>
+    <div className='md:h-[30vh] h-full bg-slate-800 py-12 px-10 text-white flex flex-row items-start gap-6 justify-between w-full'>
         
         <div>
             <h1 className='text-2xl'>BlogG</h1>
@@ -25,7 +25,7 @@ const Footer = (props: Props) => {
             </ul>
         </div>
         
-        <div className='flex md:flex-col flex-row'>
+        <div className='flex  flex-row'>
             <a href={'https://github.com'} target='_blank'>
             <Image src={'/github-icon.svg'} alt='github' width={32} height={32}/>
             </a>
