@@ -10,7 +10,7 @@ const Posts = async (props: Props) => {
     const posts = await prisma.post.findMany({
         take: 3,
         orderBy: {
-            createdAt: 'asc'
+            createdAt: 'desc'
         }
     });
     const bgClasses = [
